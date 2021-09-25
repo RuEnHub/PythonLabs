@@ -10,7 +10,7 @@ while True:
     else:
         break
 try:
-    result = pow(pow(fabs(cos(a)), n), m) + pow(exp(n), 3)/log(a) + pow(sin(pow(a, 2)), 1/n)
+    result = pow(fabs(cos(a)),pow(n,m)) + exp(pow(n, 3))/log(a) + pow(sin(pow(a, 2)), 1/n)
     print(result)
 except Exception as e:
     print(e)
